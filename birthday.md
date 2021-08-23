@@ -16,4 +16,10 @@ P(A) = 1 - P(A')
 
 In order to calculate P(A'), the second person must have diffrent birthday with first one, and also third one must have diffrent birthday with first and second person, and so on. the probability of event 2 is 364/365, as person 2 may have any birthday other than the birthday of person 1. Similarly, the probability of event 3 given that event 2 occured is 363/365, as person 3 may have any of the birthdays not already taken by persons 1 and 2.
 
+$$p'(n) = {1 \times {1 - \frac{1}{365}}} \times {1 \times {1 - \frac{2}{365}} \times ... \times {1 - \frac{n-1}{365}} \\ = \frac{365!}{365^{n}(365-n)!
+
+- What it means
+The equation expresses the fact that the first person has no one to share a birthday, the second person cannot have the same birthday as the first, the third ond cannot have the same birthday as either of the first two, and in general the 'n'th birthday cannot be the same as any of the n-1 preceding birthdays.
+
+Therefore, the probability of shared birthday p(n) is 1 - p(n')
 
